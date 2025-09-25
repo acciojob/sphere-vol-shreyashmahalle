@@ -1,5 +1,5 @@
-function volume_sphere() {
-e.preventDefault(); // stop form from refreshing
+function volume_sphere(event) {
+event.preventDefault(); // stop form from refreshing
     
     let radius = document.getElementById("radius").value;
     radius = parseFloat(radius);
